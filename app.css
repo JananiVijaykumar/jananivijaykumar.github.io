@@ -1,0 +1,225 @@
+.title_page{
+    background: url("images/openingpic/boat1.jpeg");
+    background-size: cover;
+    background-position: center; 
+
+}
+
+.about_page {
+    background-color: #d3f8e2;
+}
+
+.experience_page {
+    background-color: #e4c1f9;
+}
+
+.hobbies_page {
+    background-color: #f694c1;
+}
+
+.leadership_page {
+    background-color: #ede7b1;
+}
+
+.contact_page {
+    background-color: #a9def9;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 2em;
+}
+
+
+.content{
+	padding-top: 20%;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    color: white;
+}
+
+.experience-content {
+    padding-top: 10%;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    color: white;
+}
+
+.exp {
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    color: white;
+    padding-top: 2.5%;
+}
+
+.collage {
+    padding: 10%;
+}
+
+.row {
+    padding-bottom: 2.5%;
+}
+
+hr {
+    width: 75%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+p {
+    font-color: black;
+    font-size: 1.2em; 
+    padding: 5%;
+}
+
+.leadership-text {
+    text-align: center;
+    padding: 5%;
+}
+
+.contact-text {
+    text-align: center;
+    padding: 1%;
+}
+
+.headshot {
+    padding-top: 20%;
+    width: 100%;
+}
+
+.exp-description {
+    text-align: left;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0.4),
+                 0px 0px 0px rgba(0,0,0,0.1),
+                 0px 0px 0px rgba(0,0,0,0.1);
+    color: black;
+}
+
+/*slideshow styles below*/
+
+/* {box-sizing: border-box} */
+.mySlides1, .mySlides2, .mySlides3 {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+ /*Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 5%;
+}
+
+ /*Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  /*position: absolute;*/
+  top: 50%;
+  width: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+ /*Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+ /*On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* text box hover state below */
+
+.hvrbox,
+.hvrbox * {
+    box-sizing: border-box;
+}
+.hvrbox {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+.hvrbox img {
+    max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+    display: block;
+}
+.hvrbox .hvrbox-layer_top {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 15px;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+    opacity: 1;
+}
+.hvrbox .hvrbox-text {
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+    font-size: 15px;
+    border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+    border-top: 1px solid rgba(179, 179, 179, 0.7);
+    margin-top: 5px;
+    padding-top: 2px;
+    display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+    display: block;
+}
