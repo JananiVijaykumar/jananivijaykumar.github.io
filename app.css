@@ -78,6 +78,10 @@ h3 {
     padding-bottom: 2.5%;
 }
 
+.travel-blurb {
+    padding: 0%;
+}
+
 hr {
     width: 75%;
     border-top: 1px solid #f8f8f8;
